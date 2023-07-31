@@ -5,19 +5,16 @@ import PackageDescription
 let package = Package(
   name: "swift-markdown-ui",
   platforms: [
-    .macOS(.v12),
-    .iOS(.v15),
-    .tvOS(.v15),
-    .watchOS(.v8),
+    .iOS(.v14),
   ],
   products: [
     .library(
       name: "MarkdownUI",
       targets: ["MarkdownUI"]
-    )
+    ),
   ],
   dependencies: [
-    .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.10.0")
+    .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.10.0"),
   ],
   targets: [
     .target(name: "cmark-gfm"),

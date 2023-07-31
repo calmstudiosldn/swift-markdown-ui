@@ -3,6 +3,7 @@ import XCTest
 
 @testable import MarkdownUI
 
+@available(iOS 15, *)
 final class InlineContentBuilderTests: XCTestCase {
   func testEmpty() {
     // given

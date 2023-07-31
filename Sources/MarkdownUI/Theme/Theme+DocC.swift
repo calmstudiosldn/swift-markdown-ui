@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 15, *)
 extension Theme {
   /// A theme that mimics the DocC style.
   ///
@@ -152,6 +153,7 @@ extension Shape where Self == RoundedRectangle {
   }
 }
 
+@available(iOS 15, *)
 extension Color {
   fileprivate static let text = Color(
     light: Color(rgba: 0x1d1d_1fff), dark: Color(rgba: 0xf5f5_f7ff)

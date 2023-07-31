@@ -19,6 +19,7 @@ import Foundation
 /// ```
 ///
 /// ![](Heading)
+@available(iOS 15, *)
 public struct Heading: MarkdownContentProtocol {
   public enum Level: Int {
     case level1 = 1

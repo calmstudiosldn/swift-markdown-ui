@@ -60,6 +60,7 @@ import Foundation
 ///   }
 /// }
 /// ```
+@available(iOS 15, *)
 public struct TaskList: MarkdownContentProtocol {
   public var _markdownContent: MarkdownContent {
     .init(blocks: [.taskList(isTight: self.tight, items: self.items)])

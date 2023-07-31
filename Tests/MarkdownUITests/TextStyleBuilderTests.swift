@@ -2,6 +2,7 @@ import MarkdownUI
 import SwiftUI
 import XCTest
 
+@available(iOS 15, *)
 final class TextStyleBuilderTests: XCTestCase {
   func testBuildEmpty() {
     // given

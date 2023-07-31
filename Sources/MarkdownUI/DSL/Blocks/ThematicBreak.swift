@@ -17,6 +17,7 @@ import Foundation
 /// ```
 ///
 /// ![](ThematicBreak)
+@available(iOS 15, *)
 public struct ThematicBreak: MarkdownContentProtocol {
   public var _markdownContent: MarkdownContent {
     .init(blocks: [.thematicBreak])

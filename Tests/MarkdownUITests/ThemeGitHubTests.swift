@@ -5,6 +5,7 @@
 
   import MarkdownUI
 
+  @available(iOS 15, *)
   final class ThemeGitHubTests: XCTestCase {
     private let layout = SwiftUISnapshotLayout.device(config: .iPhone8)
     private let perceptualPrecision: Float = 0.97

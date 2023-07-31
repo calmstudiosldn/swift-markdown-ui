@@ -4,6 +4,7 @@
 
   @testable import MarkdownUI
 
+  @available(iOS 15, *)
   final class FontPropertiesTests: XCTestCase {
     func testFontWithProperties() {
       // given

@@ -31,6 +31,7 @@ public struct RelativeSize: Hashable {
   var unit: Unit
 }
 
+@available(iOS 15, *)
 extension RelativeSize {
   /// A size with a value of zero.
   public static let zero = RelativeSize(value: 0, unit: .rem)
@@ -57,6 +58,7 @@ extension RelativeSize {
   }
 }
 
+@available(iOS 15, *)
 extension View {
   /// Positions this view within an invisible frame with the specified size.
   ///

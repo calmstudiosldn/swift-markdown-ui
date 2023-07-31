@@ -22,6 +22,7 @@ import Foundation
 ///   }
 /// }
 /// ```
+@available(iOS 15, *)
 public struct TaskListItem: Hashable {
   let isCompleted: Bool
   let children: [BlockNode]

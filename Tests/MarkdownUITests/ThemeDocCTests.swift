@@ -5,6 +5,7 @@
 
   import MarkdownUI
 
+  @available(iOS 15, *)
   final class ThemeDocCTests: XCTestCase {
     private let layout = SwiftUISnapshotLayout.device(config: .iPhone8)
 

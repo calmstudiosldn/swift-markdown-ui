@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 15, *)
 extension View {
   /// Sets the code syntax highlighter for the Markdown code blocks in a view hierarchy.
   /// - Parameter codeSyntaxHighlighter: The code syntax highlighter to set. Use

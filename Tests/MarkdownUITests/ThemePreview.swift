@@ -1,6 +1,7 @@
 import MarkdownUI
 import SwiftUI
 
+@available(iOS 15, *)
 struct ThemePreview: View {
   private let theme: Theme
   private let colorSchemes: [ColorScheme]

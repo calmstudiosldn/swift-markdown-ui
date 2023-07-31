@@ -50,6 +50,7 @@ where
   }
 }
 
+@available(iOS 15, *)
 extension BlockSequence where Data == [BlockNode], Content == BlockNode {
   init(_ blocks: [BlockNode]) {
     self.init(blocks) { $1 }

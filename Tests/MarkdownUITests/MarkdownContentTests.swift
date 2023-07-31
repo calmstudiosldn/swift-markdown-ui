@@ -1,6 +1,7 @@
 import MarkdownUI
 import XCTest
 
+@available(iOS 15, *)
 final class MarkdownContentTests: XCTestCase {
   func testEmpty() {
     // when
